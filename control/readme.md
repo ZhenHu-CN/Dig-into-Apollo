@@ -40,6 +40,7 @@ Control模块的目录结构如下：
 ├── integration_tests    // 测试
 ├── launch               // launch加载
 ├── proto                // protobuf文件，主要是各个控制器的配置数据结构
+├── submodules           // submodules of controller and processor
 ├── testdata             // 测试数据
 └── tools                // 工具类
 ```
