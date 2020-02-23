@@ -211,7 +211,7 @@ Control模块中只能使用pad消息"RESET"来清空"estop_"的状态。实际�
 ## LatController控制器
 纵向控制主要是控制速度，而横向控制主要是控制方向。方向盘的角度不一样，车的行驶路径不一样，因此汽车的横向控制主要是通过控制方向盘的转角来控制汽车行驶的角度。  
 纵向控制采用的是**LQR控制器**，为什么不继续采用PID控制器呢？因为每种控制器都有它的适合情况和不适合情况（有一篇文章专门介绍了不同的控制器的优劣，PID主要的缺点是不适合泊车和曲率比较大的情况）。关于LQR控制器主要是一些公式的推导，后面再详细介绍下推导过程。
-![table](img/lateral control equation.png)    
+![table](img/equation of lateral vehicle dynamics.png)    
 
 <a name="mpc_controller" />
 
